@@ -7,7 +7,7 @@ public class MainShortCut {
 		System.out.println("Hi JAVA");
 		System.out.println("출력 되는 내용");
 		System.out.println("출력!!!");
-		
+
 		// 주석 ctrl + /
 		// 실행 ctrl + f11
 		// 창크기 ctrl + m
