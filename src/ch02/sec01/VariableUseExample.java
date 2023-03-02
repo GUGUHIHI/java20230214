@@ -4,12 +4,13 @@ public class VariableUseExample {
 	public static void main(String[] args) {
 		// 코드수정 힌트얻기 : ctrl + 1
 		// 줄맞추기 : ctrl + shift + f
-
-		int myhour = 3;
-		int min = 5;
-		System.out.println(myhour + "시간" + min + "분");
-
-		int totalMin = (myhour * 60) + min;
-		System.out.println("총" + totalMin + "분");
+		int hour = 3;
+		int minute = 5;
+		
+		System.out.println(hour + "시간" + minute + "분");
+		
+		int totalminute = (hour*60) + minute;
+		System.out.println("총" + totalminute + "분");
+		
 	}
 }
