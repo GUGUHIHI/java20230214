@@ -7,10 +7,10 @@ public class C02Encapulation {
 //		o1.age = 30;
 		
 		System.out.println("나이 : " + o1.getAge());
-		o1.updateAge();
+		o1.UpdateAge();
 		
 		System.out.println("나이 : " + o1.getAge());
-		o1.updateAge();
+		o1.UpdateAge();
 		
 	}
 }

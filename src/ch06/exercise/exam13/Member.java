@@ -1,4 +1,4 @@
-package ch06.exercise;
+package ch06.exercise.exam13;
 
 public class Member {
 
@@ -7,6 +7,11 @@ public class Member {
 	private String password;
 	private int age;
 	private boolean married;
+	
+	public Member(String name, String id) {
+		this.name = name;
+		this.id = id;
+	}
 	
 	public boolean isMarried() {
 		return married;
