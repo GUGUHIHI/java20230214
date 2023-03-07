@@ -1,5 +1,10 @@
 package ch07.exercise.exam10;
 
-public class Machine {
-
-}
+public abstract class Machine {
+	public void powerOn() {}
+	public void powerOff() {}
+	public abstract void work();
+	}
+//public class Computer extends Machine {
+	
+//}
