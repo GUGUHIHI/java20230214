@@ -8,7 +8,7 @@ public class Car {
 	int maxSpeed;
 	
 	// 생성자 선언
-	Car() {}
+	public Car() {}
 	
 	Car(String model) {
 		this.model = model;
