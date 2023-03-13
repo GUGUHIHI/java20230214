@@ -24,7 +24,7 @@ public class InstanceofExample {
 	}
 	
 	public static void main(String[] args) {
-		// Person 객체를 매개값으로 제공하고 personInfo() 메소드 호출
+		// LambdaExample 객체를 매개값으로 제공하고 personInfo() 메소드 호출
 		Person p1 = new Person("홍길동");
 		personInfo(p1);
 		
