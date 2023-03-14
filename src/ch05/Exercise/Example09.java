@@ -7,6 +7,7 @@ public class Example09 {
 		boolean run = true;
 		Scanner scanner = new Scanner(System.in);
 		int[] scores = null;
+		//
 		
 		while (run) {
 			System.out.println("-----------------------------------------------------------");
