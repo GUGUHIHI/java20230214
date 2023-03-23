@@ -7,7 +7,8 @@ public class C07InputStream {
 		String src = "output/sdorica.jpg";
 		String des = "output/sdorica._copy4.jpg";
 		
-		try (var is = new FileInputStream(src);
+		try (
+				var is = new FileInputStream(src);
 				var os = new FileOutputStream(des);) {
 			
 			is.transferTo(os);
